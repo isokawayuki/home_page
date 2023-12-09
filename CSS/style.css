@@ -177,7 +177,7 @@ img {
 .openbtn{
 	position:fixed;
     z-index: 9999;/*ボタンを最前面に*/
-	top: 50px;
+	top: 5.5%;
 	right: 30px;
 	cursor: pointer;
     width: 50px;
@@ -919,6 +919,9 @@ button:hover::after{
 @media screen and (max-width:767px) {
     /* toppage
     ---------------------- */
+    .logo {
+        width: 20%;
+    }
     .maintext > h1 {
         font-size: 6.25vw;
         margin-bottom: 5px;
@@ -1036,10 +1039,6 @@ button:hover::after{
 
     /* about me 
     ---------------------------*/
-    html {
-        max-width: 100%;
-        width: 100%;
-    }
     .skill {
         margin: 0 auto;
         max-width: 100%;
